@@ -331,13 +331,13 @@ end;
 procedure TMainForm.HelpAboutExecute(Sender: TObject);
 begin
   try
-    frmProProgramu:=TfrmProProgramu.Create(self);
+    if not IsFormOpen('frmProProgramu') then frmProProgramu:=TfrmProProgramu.Create(self);
     try
-      frmProProgramu.ShowModal;
-    finally
       frmProProgramu.Caption:='Про програму...';
       frmProProgramu.Position:=poMainFormCenter;
       frmProProgramu.BorderStyle:=bsDialog;
+      frmProProgramu.ShowModal;
+    finally
       frmProProgramu.Free;
     end;
   except

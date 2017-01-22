@@ -36,7 +36,6 @@ uses
 procedure TfrmProProgramu.FormClose(Sender: TObject;
   var Action: TCloseAction);
 begin
-//  frmMain.Enabled:=true;
   Action:=caFree;
 end;
 
