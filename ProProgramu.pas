@@ -4,7 +4,6 @@ interface
 
 uses
   Forms, Controls, StdCtrls, ExtCtrls, Graphics, Classes, Utils;
-//  , SysUtils, Dialogs;
 
 type
   TfrmProProgramu = class(TForm)

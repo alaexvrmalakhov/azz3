@@ -1,9 +1,9 @@
 object frmSplash: TfrmSplash
   Left = 195
   Top = 103
-  Width = 404
-  Height = 231
   Caption = 'frmSplash'
+  ClientHeight = 193
+  ClientWidth = 388
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -16,16 +16,18 @@ object frmSplash: TfrmSplash
   object Panel1: TPanel
     Left = 0
     Top = 0
-    Width = 396
-    Height = 204
+    Width = 388
+    Height = 193
     Align = alClient
     BorderWidth = 3
     TabOrder = 0
+    ExplicitWidth = 396
+    ExplicitHeight = 204
     object Image1: TImage
       Left = 4
       Top = 4
-      Width = 388
-      Height = 196
+      Width = 200
+      Height = 113
       Align = alClient
       AutoSize = True
       Center = True
@@ -270,6 +272,8 @@ object frmSplash: TfrmSplash
         BAA28A2B2350A28A2803FFD9}
       Proportional = True
       Stretch = True
+      ExplicitWidth = 388
+      ExplicitHeight = 196
     end
   end
 end
