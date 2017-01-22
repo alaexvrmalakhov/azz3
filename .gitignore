@@ -2,11 +2,6 @@
 *.exe
 *.gdb
 
-azz3.dpr
-azz3.dproj
-azz3.dproj.local
-azz3.res
-
 MDIAPP.ICO
 
 /__history/*
